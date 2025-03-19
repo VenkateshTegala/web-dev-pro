@@ -1,4 +1,6 @@
 /* Write your code here: */
+
+/*combination of selectors*/
 h1, h2 {
     color: blueviolet;
 }
@@ -6,4 +8,20 @@ h1, h2 {
 /*parent > child*/
 .box > .done {
     color: firebrick;
+}
+
+/*descendant selector*/
+.box li {
+    color: blue;
+}
+
+/*chaining = Applies where all selectors are TRUE*/
+/*It is very specific and no (spaces)*/
+li.done {
+    color: seagreen;
+}
+
+/*ancestor */
+ul p.done {
+    font-size: 0.5rem;
 }
