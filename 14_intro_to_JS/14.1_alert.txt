@@ -1,0 +1,6 @@
+In the console 
+alert("Hello World !");
+
+
+Inorder to work on the JS in the chrome 
+inspect -> Sources -> >> -> Snippets -> Create a new snippet and write alerts
